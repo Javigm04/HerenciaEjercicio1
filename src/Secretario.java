@@ -7,7 +7,20 @@ public class Secretario extends Empleado{
 
     @Override
     public int getHoras() {
-        return 30;
+        return super.getHoras();
+    }
+
+    @Override
+    public int getVacaciones() {
+        return super.getVacaciones();
+    }
+
+    @Override
+    public String getMesVacaciones() {
+        return super.getMesVacaciones();
+    }
+    public void mostrarPantalla(){
+        System.out.println("Estoy haciendo fotocopias");
     }
 
 }
